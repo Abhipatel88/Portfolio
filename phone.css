@@ -1,0 +1,551 @@
+@media (max-width:1100px) {
+    .page1{
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+    }
+    .nav{
+        width: 100%;
+        /* flex-direction: column;   */
+        /* font-size: 1rem; */
+        /* display: none; */
+        padding: 0px 20px;
+        border-radius: 0;
+    }
+    .l{
+        display: none;
+        z-index: 88;
+
+    }
+    .r{
+        display: none;
+    }
+    .ri-close-line{
+        /* display: none; */
+    }
+    /* .nav .l{
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        display: block;
+        background-color: rgba(208, 208, 208, 0.281);
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 68;
+        transform: translateY(130%);
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: all 0.5s;
+
+
+    }
+    .nav .r {
+        position: absolute;
+        width: 100%;
+        height: 130vh;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 6;
+        /* margin-top: 2rem; */
+        /* transform: translateY(130%); */
+        /* opacity: 0; */
+        /* pointer-events: none; */
+        /* visibility: hidden; */
+        /* transition: all 0.5s; */
+
+    /* } */
+    
+    .acative .r{
+        transform: translateY(0%);
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+      } */
+    .m{
+        align-items: flex-start;
+    }
+    .q{
+        display: block;
+        font-size: 2.5rem;
+
+    }
+    .part1{
+        width: 100%;
+        height: 16rem;
+        /* background-color: aqua; */
+        margin-top: 1rem;
+    }
+    .part1 p{
+        font-size: 1rem;
+
+
+    }
+    .part1 h1{
+        font-size: 3rem;
+    }
+    .part1 span{
+        font-size: 3rem;
+    }
+    .word {
+        margin: auto;
+        /* color: rgb(0, 0, 0); */
+        font-size: 3rem;
+        /* font: 700 normal; */
+        /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+         */
+      }
+    .part2{
+        flex-wrap: wrap;
+        /* background-color: aliceblue; */
+    margin-top: 0rem;
+    width: 100%;
+    height: 18rem;
+
+    }
+    .side{
+        width: 100%;
+        display: none;
+    }
+    .side p{
+        width: 100%;
+    }
+    .side i{
+        font-size: 1.5rem;
+    }
+    .rate{
+        width: 100%;
+        text-align: center;
+        /* display: none; */
+        margin-top: 1.5rem;
+
+    }
+    .rate h2{
+        font-size: 2.5rem;
+    
+    }
+    .rate i{
+        font-size: 2.5rem;
+
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feccb1+0,f17432+50,ea5507+51,fb955e+100;Red+Gloss+%232 */
+background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    }
+    .photo img{
+        height: 100%;
+        left: -8%;
+         top: 0%;
+    }
+
+    .top{
+        z-index: 9;
+        display: flex; 
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        bottom:0;
+        left: 10%;
+        top: 80%;
+        transform: translate(-50%,-50%);
+        /* gap: 50px; */
+        border: 2px solid black;
+        border-radius: 50px;
+        /* padding: 5px 30px; */
+        /* filter: blur(1.5); */
+        backdrop-filter: blur(20px);
+    width: 300px;
+    padding: 10px;
+    
+        background-color: transparent;
+    }
+    
+    .cur{
+        padding: 8px 20px;
+        background-color: rgb(255, 124, 77);
+        border-radius: 50px;
+        cursor: pointer;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    }
+    
+
+
+
+
+
+
+
+    .page2{
+        width: 100%;
+        /* background-color: aquamarine; */
+        background: url('62367.jpg') center no-repeat;
+        /* height: 120vh; */
+        padding: 0px;
+    }
+
+
+    .img-top{
+        width: 100%;
+        flex-direction: column;
+        padding: 5px 10px;
+
+    }
+    .img-top-l{
+        width: 100%;
+        font-size: 1.1rem;
+    
+    }
+    
+    .img-top-r{
+        width: 100%;
+    }
+    .project{
+        margin-top: 10px;
+        justify-content: center;
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+    .box{
+        width: 13rem;
+        height: 13rem;
+        
+    }
+    .box-img{
+        height: 7rem;
+        width: 10rem;
+    }
+    .box-img img{
+        margin-top: 0;
+    }
+
+
+    .page3{
+        padding: 10px;
+        /* background-color: antiquewhite; */
+    }
+    .page3 h1{
+        text-align: center;
+        font-size: 2.2rem;
+    
+    }
+    .experince{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .exp{
+        
+        padding: 10px 20px;
+        flex-direction: column;
+        margin-top: 15px;
+       
+        
+        
+    }
+    .exp i{
+        font-size: 1.5rem;
+        /* transform: rotate(-5deg); */
+        width: 100%;
+    }
+    .exp-l{
+        width: 100%;
+        /* height: 100px; */
+        /* background-color: antiquewhite; */
+    
+    }
+    .exp-l h4{
+        font-size: 2rem;
+    }
+    .exp-r{
+        width: 100%;
+        /* height: 100px; */
+        /* background-color: aquamarine; */
+    
+    }
+    .head{
+       
+        flex-direction: column;
+    }
+    .head-l{
+        width: 100%;
+    
+    }
+    .head-l h1{
+        font-size: 2rem;
+    }
+  
+    .head-r{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .port{
+        width: 100%;
+        gap: 2.5rem;
+    }
+    .box1{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .box1 video{
+       
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    
+    
+    
+    .page5{
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .part6-top{
+       
+        margin-top: 30px;
+        flex-direction: column;
+        /* background-color: aliceblue; */
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .part6-top h1{
+        width: 100%;
+       font-size: 1.5rem;
+    
+    }
+  
+    .part6-top p{
+      
+        width: 100%;
+    }
+    .part6-mid{
+        
+        margin-top: 30px;
+    }
+    .box2{
+        min-width: 60%;
+        /* background-color: #b49579; */
+        height: 32rem;
+        
+    }
+   
+    .box2-top{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+        /* background-color: antiquewhite; */
+        height: 70px;
+        padding: 5px 5px;
+    
+        gap: 20px;
+    }
+    .box2-top-l{
+        width: 20%;
+        border-radius: 50px;
+    
+    }
+    
+    .box2-top-r{
+        width: 100%;
+    }
+    .ic1 {
+        
+        margin-top: 35px;
+    }
+    .page6{
+        width: 100%;
+        /* background-color: #b49579; */
+        /* height: 80vh; */
+        padding: 2rem;
+        /* background: url('5470573.jpg'); */
+    }
+    .part7-top{
+       
+        padding: 0px;
+        display: flex;
+        /* flex-direction: column;
+        align-items: center; */
+        /* justify-content: center; */
+        /* margin-top: 5rem; */
+        /* background-color: rgb(32, 57, 80); */
+        /* margin-top: 60px; */
+    }
+    .part7-top h1{
+        font-size: 1.5rem;
+        width: 100%;
+        /* color: rgb(0, 0, 0); */
+    }
+   
+    .part7-top-mid{
+        width: 100%;
+       
+       
+    }
+   
+   .part7-top-end-l p{
+    font-size: 0.5rem;
+   }
+    .part7-top-end {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* border: 5px solid beige; */
+        /* padding: 10px 30px; */
+        /* width: 100%; */
+        gap: 1rem;
+        margin-top: 0.7rem;
+    }
+    
+    .page7{
+        width: 100%;
+        min-height:20vh ;
+        /* transform: rotate(-8deg); */
+        /* border-radius: 30px; */
+    }
+    .part8-top{
+        width: 100%;
+
+        height: 4rem;
+        background-color: white;
+        align-items: center;
+        transform: rotate(-5deg);
+        margin-top: 0px;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        /* box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.279),inset -20px -20px 60px rgba(0, 0, 0, 0.258); */
+        box-shadow: rgba(50, 50, 93, 0.404) 0px 50px 100px -20px, rgba(0, 0, 0, 0.623) 0px 30px 60px -30px, rgba(10, 37, 64, 0.59) 0px -2px 6px 0px inset;
+        /* box-shadow: rgb(7, 7, 7) 3px 3px 6px 0px inset, rgba(93, 86, 86, 0.5) -3px -3px 6px 1px inset; */
+        /* position: absolute; */
+        border-radius: 10px;
+        
+    }
+    .part8-top i{
+        color: black;
+    }
+    .part8-top marquee{
+        font-size: 2rem;
+    }
+    
+
+
+    .page8{
+        width: 100%;
+        padding: 14px;
+    }
+    .part9-top{
+        height: 10vh;
+    
+    }
+    
+    .part9-top-l h1{
+        font-size: 1rem;
+    }
+
+    .part9-top-r button{
+        padding: 5px 10px;
+        font-size: 1rem;
+      
+    }
+    .page8-mid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        color: white;
+        /* padding: 10px 20px; */
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .page8-mid-l{
+        width: 100%;
+        /* height: 20vh; */
+        /* background-color: #c72200; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .page8-mid-l img{
+        /* background-color: #e86c57; */
+        height: 5rem;
+    }
+    .page8-mid-l icon{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .page8-mid-l  i{
+        font-size: 1rem;
+        /* color: white; */
+    }
+    .page8-mid-r{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    .first ul li{
+        list-style: none;
+        font-size: 0.5rem;
+    }
+    .first ul span{
+        font-size: 1rem;
+        color: orangered;
+    }
+    .sec ul li{
+        list-style: none;
+        font-size: 0.5rem;
+    }
+    .sec ul span{
+        font-size: 1rem;
+        color: orangered;
+    }
+    .th ul li{
+        list-style: none;
+        font-size: 0.5rem;
+    }
+    .th ul span{
+        font-size: 1rem;
+        color: orangered;
+    }
+    .th input{
+        padding: 10px 20px ;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+    }
+    .page8-end{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        margin-top: 20px;
+    }
+    .page8-end h4{
+        font-size: 1rem;
+        font-weight: 200
+    }
+
+}
